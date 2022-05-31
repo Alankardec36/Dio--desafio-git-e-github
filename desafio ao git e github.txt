@@ -1,0 +1,48 @@
+
+Links úteis: 
+
+Instalação do git 
+https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Instalando-o-Git   
+
+plataforma do github
+https://github.com/
+
+No youtube como criar o github
+https://youtu.be/1QTi8nIlK1o
+
+Comandos git subindo protejos remote 
+
+Primeiro crie uma pasta onde vai ser a raiz do seu projeto, dentro dela você vai abrir o terminal, no linux ou mac poderá utilizar o terminal integrado bash, 
+no windows você pode usar o do GitBash  que vem na instalação do Git mesmo.
+ 
+#iniciando projeto
+git init
+
+#crie um arquivo html ou de sua preferência
+touch index.html
+
+#vamos adiconar ele. (o comando a seguir adiciona todos os arquivos modificados)
+git add --all
+
+#vamos fazer o primeiro commit 
+git commit -m  'primeiro commit'
+
+Agora vem a parte do GitHub, crie um novo repositório e copie a url dele
+
+#vamos definir uma branch
+git branch -M main
+
+#fazendo remote em seu repositório
+git remote add "  "
+
+#agora é só subir as alterações para o github com push 
+git push -u origin main
+
+
+Como clonar arquivos do github para sua máquina local
+
+#voce entra no git bash e utiliza o comando git clone e cola o código no github
+git clone https:"     "
+
+
+
